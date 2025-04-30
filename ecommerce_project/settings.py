@@ -30,7 +30,7 @@ import os
 
 SECRET_KEY = os.getenv('^6&3fblgl&8%#v&4!*ds4oc(=9wcd2ncz38l998nv6g1wd)q@m', "fallback_dev_secret")
 DEBUG = False
-ALLOWED_HOSTS = ['ai-recommender-k6wy.onrender.com','locahlhost','127.0.0.1']
+ALLOWED_HOSTS = ['ai-recommender-1t55.onrender.com','locahlhost','127.0.0.1']
 
 # Application definition
 OPENAI_KEY = os.getenv("dab82bcf11b83362167ef1634b859e6a")
