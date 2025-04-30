@@ -33,7 +33,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['ai-recommender-1t55.onrender.com','locahlhost','127.0.0.1']
 
 # Application definition
-OPENAI_KEY = os.getenv("dab82bcf11b83362167ef1634b859e6a")
+OPENAI_KEY = os.getenv("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")
 MONGO_URI = os.getenv("d5f00a389419fed3ab7df49986a603c")
 
 
