@@ -33,8 +33,8 @@ DEBUG = False
 ALLOWED_HOSTS = ['ai-recommender-1t55.onrender.com','locahlhost','127.0.0.1']
 
 # Application definition
-OPENAI_KEY = os.getenv("dab82bcf11b83362167ef1634b859e6a")
-MONGO_URI = os.getenv("d5f00a389419fed3ab7df49986a603c")
+OPENAI_KEY = os.getenv("")
+MONGO_URI = os.getenv("")
 
 
 INSTALLED_APPS = [
