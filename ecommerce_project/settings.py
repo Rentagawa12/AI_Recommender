@@ -33,8 +33,8 @@ DEBUG = False
 ALLOWED_HOSTS = ['ai-recommender-1t55.onrender.com','locahlhost','127.0.0.1']
 
 # Application definition
-OPENAI_KEY = os.getenv("dab82bcf11b83362167ef1634b859e6a")
-MONGO_URI = os.getenv("d5f00a389419fed3ab7df49986a603c")
+OPENAI_KEY = os.getenv("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")
+MONGO_URI = os.getenv("mongodb+srv://storeadmin:admin12345@cluster0.obgxlt8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 
 INSTALLED_APPS = [
