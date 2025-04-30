@@ -25,10 +25,17 @@ SECRET_KEY = 'django-insecure-^z4)9vc@513$x(-u9%w%e5%w&lfbmycx1t4!vy4hkfcfu72e6(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+import os
 
+
+SECRET_KEY = os.getenv('^6&3fblgl&8%#v&4!*ds4oc(=9wcd2ncz38l998nv6g1wd)q@m', "fallback_dev_secret")
+DEBUG = False
+ALLOWED_HOSTS = ['ai-recommender-k6wy.onrender.com','locahlhost','127.0.0.1']
 
 # Application definition
+OPENAI_KEY = os.getenv("dab82bcf11b83362167ef1634b859e6a")
+MONGO_URI = os.getenv("d5f00a389419fed3ab7df49986a603c")
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
